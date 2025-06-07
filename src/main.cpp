@@ -9,7 +9,6 @@
 int main() {
   // Initialize input elements
   std::vector<char> elements = {'1', '2', '3'};
-  
   // Create permutation tree
   PMTree tree(elements);
 
@@ -25,7 +24,6 @@ int main() {
 
   // Retrieve and display specific permutations
   std::cout << "\nSpecific permutations:\n";
-  
   std::cout << "Permutation 1: ";
   auto perm1 = getPerm1(tree, 1);
   for (char c : perm1) {
